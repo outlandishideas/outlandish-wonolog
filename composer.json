@@ -1,0 +1,16 @@
+{
+  "name": "outlandish/wonolog",
+  "version": "0.2.0",
+  "description": "Wonolog configuration file for Outlandish projects.",
+  "type": "wordpress-muplugin",
+
+  "autoload": {
+    "psr-4": {
+      "Outlandish\\Wonolog\\": "src"
+    }
+  },
+
+  "require": {
+    "inpsyde/wonolog": "^1.0"
+  }
+}
